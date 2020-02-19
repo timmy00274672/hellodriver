@@ -1,3 +1,9 @@
+hellodriver (0.1) unstable; urgency=medium
+
+  * Add hello world, -> insmod / rmmod
+
+ -- Tim Chen <timchen@ingrasys.com>  Wed, 19 Feb 2020 09:40:33 +0800
+
 hellodriver (0.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

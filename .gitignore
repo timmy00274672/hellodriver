@@ -1,0 +1,16 @@
+.cache.mk
+.tmp_versions/
+Module.symvers
+modules.order
+src/.hello.ko.cmd
+src/.hello.mod.o.cmd
+src/.hello.o.cmd
+src/hello.ko
+src/hello.mod.c
+src/hello.mod.o
+src/hello.o
+debian/debhelper-build-stamp
+debian/files
+debian/hellodriver.debhelper.log
+debian/hellodriver.substvars
+debian/hellodriver/
