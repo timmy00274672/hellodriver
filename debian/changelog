@@ -1,3 +1,9 @@
+hellodriver (0.2) unstable; urgency=medium
+
+  * Add module parameter (/sys/modules/hello/parameters)
+
+ -- Tim Chen <timchen@ingrasys.com>  Wed, 19 Feb 2020 14:46:25 +0800
+
 hellodriver (0.1) unstable; urgency=medium
 
   * Add hello world, -> insmod / rmmod

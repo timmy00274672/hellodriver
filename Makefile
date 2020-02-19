@@ -3,8 +3,10 @@
 #
 obj-m       += src/hello.o
 KVERSION := $(shell uname -r)
- 
-all:
+
+all: src/hello.ko
+
+src/hello.ko: src/hello.c
 	$(MAKE) -C /lib/modules/$(KVERSION)/build M=$(PWD) modules
 
 install:
@@ -18,3 +20,9 @@ distclean: clean
 
 uninstall:
 	-rm -f $(DESTDIR)/lib/modules/$(KVERSION)/hello.ko
+
+insmod: src/hello.ko
+	-insmod src/hello.ko
+
+rmmod: src/hello.ko
+	-rmmod src/hello.ko
